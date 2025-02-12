@@ -36,7 +36,7 @@ export default function Home() {
     const targetDate = new Date();
     targetDate.setFullYear(targetDate.getFullYear());
     targetDate.setMonth(1);
-    targetDate.setDate(15);
+    targetDate.setDate(14);
     targetDate.setHours(19, 30, 0, 0);
 
     const updateTimeLeft = () => {
