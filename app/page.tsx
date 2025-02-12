@@ -85,7 +85,7 @@ export default function Home() {
         Pensabas que no? 
       </h1>
       <p className="mt-4 text-2xl text-gray-700 z-10">
-        Quiero que pasemos un San Valentin especial ❤️
+        Obvio que quiero invitarte a que pasemos un San Valentin especial ❤️
       </p>
 
       {/* Botón para ver invitación */}
@@ -99,16 +99,17 @@ export default function Home() {
       {/* Sección de la invitación */}
       <div id="invitacion" className="w-full min-h-screen flex flex-col justify-center items-center text-center p-6 bg-black mt-16 rounded-lg shadow-lg">
         <h2 className="text-3xl font-cursive text-white">
-          Estás cordialmente invitado a nuestra cena especial de San Valentín el 15 de febrero a las 19:30. ❤️
+          Me encantaria que tengamos una cena especial de San Valentín el 15 de febrero a las 19:30. ❤️
         </h2>
         <p className="text-xl text-gray-500 mt-4">Tiempo restante: {timeLeft}</p>
+        <p className="text-xl text-gray-700 mt-10"> Sigue bajando...</p>
       </div>
 
 
 
       {/* Álbum de fotos */}
       <div className="w-full bg-gray-300 py-10 flex flex-wrap justify-center gap-6 rounded-lg shadow-lg">
-        <h2 className="text-4xl font-bold text-red-500 w-full text-center mb-6">Algunas fotos Nuestras ❤️</h2>
+        <h2 className="text-4xl font-bold text-red-500 w-full text-center mb-6">Vamos a añadir mas fotos acá... ❤️</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
           <Image src="/3BB3E6CC-9881-451E-A026-0422CE4B0592.JPG" width={200} height={200} alt="Recuerdo" className="rounded-lg shadow-lg rotate-2" />
           <Image src="/7b9077ed-e6e0-4cc5-9507-f1402710e217.JPG" width={200} height={200} alt="Recuerdo" className="rounded-lg shadow-lg -rotate-2" />
