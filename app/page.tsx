@@ -99,7 +99,7 @@ export default function Home() {
       {/* Sección de la invitación */}
       <div id="invitacion" className="w-full min-h-screen flex flex-col justify-center items-center text-center p-6 bg-black mt-16 rounded-lg shadow-lg">
         <h2 className="text-3xl font-cursive text-white">
-          Me encantaria que tengamos una cena especial de San Valentín el 15 de febrero a las 19:30. ❤️
+          Me encantaria que tengamos una cena especial de San Valentín el 14 de febrero a las 19:30. ❤️
         </h2>
         <p className="text-xl text-gray-500 mt-4">Tiempo restante: {timeLeft}</p>
         <p className="text-xl text-gray-700 mt-10"> Sigue bajando...</p>
